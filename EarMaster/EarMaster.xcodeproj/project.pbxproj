@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3BA1B99A65100525099 /* EMRootViewController.m */; };
+		C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3BD1B99A9AD00525099 /* EMNavigationController.m */; };
+		C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3D71B99ACEF00525099 /* FMDatabase.m */; };
+		C14CA3E21B99ACEF00525099 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3D91B99ACEF00525099 /* FMDatabaseAdditions.m */; };
+		C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3DB1B99ACEF00525099 /* FMDatabasePool.m */; };
+		C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3DD1B99ACEF00525099 /* FMDatabaseQueue.m */; };
+		C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3E01B99ACEF00525099 /* FMResultSet.m */; };
+		C14CA3E71B99AD0000525099 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C14CA3E61B99AD0000525099 /* libsqlite3.dylib */; };
+		C14CA3EA1B99AD6600525099 /* SQLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3E91B99AD6600525099 /* SQLManage.m */; };
 		C15189671B999F2B00249300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189661B999F2B00249300 /* main.m */; };
 		C151896A1B999F2B00249300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189691B999F2B00249300 /* AppDelegate.m */; };
 		C15189701B999F2B00249300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C151896E1B999F2B00249300 /* Main.storyboard */; };
@@ -29,6 +37,24 @@
 /* Begin PBXFileReference section */
 		C14CA3B91B99A65100525099 /* EMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRootViewController.h; sourceTree = "<group>"; };
 		C14CA3BA1B99A65100525099 /* EMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRootViewController.m; sourceTree = "<group>"; };
+		C14CA3BC1B99A9AD00525099 /* EMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNavigationController.h; sourceTree = "<group>"; };
+		C14CA3BD1B99A9AD00525099 /* EMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNavigationController.m; sourceTree = "<group>"; };
+		C14CA3D61B99ACEF00525099 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C14CA3D71B99ACEF00525099 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C14CA3D81B99ACEF00525099 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C14CA3D91B99ACEF00525099 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C14CA3DA1B99ACEF00525099 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C14CA3DB1B99ACEF00525099 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C14CA3DC1B99ACEF00525099 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C14CA3DD1B99ACEF00525099 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C14CA3DE1B99ACEF00525099 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C14CA3DF1B99ACEF00525099 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C14CA3E01B99ACEF00525099 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C14CA3E61B99AD0000525099 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		C14CA3E81B99AD6600525099 /* SQLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManage.h; sourceTree = "<group>"; };
+		C14CA3E91B99AD6600525099 /* SQLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManage.m; sourceTree = "<group>"; };
+		C14CA3EC1B99BCE700525099 /* EarMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarMaster-Prefix.pch"; sourceTree = "<group>"; };
+		C14CA3ED1B99BD3700525099 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		C15189611B999F2B00249300 /* EarMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15189651B999F2B00249300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C15189661B999F2B00249300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14CA3E71B99AD0000525099 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +90,10 @@
 		C14CA3B11B99A62E00525099 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				C14CA3ED1B99BD3700525099 /* Config.h */,
+				C14CA3BF1B99AC1900525099 /* Tool */,
 				C14CA3B21B99A62E00525099 /* Controller */,
 				C14CA3B31B99A62E00525099 /* Model */,
-				C14CA3B71B99A62E00525099 /* Ulit */,
 				C14CA3B81B99A62E00525099 /* View */,
 			);
 			path = Class;
@@ -74,6 +102,8 @@
 		C14CA3B21B99A62E00525099 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C14CA3BC1B99A9AD00525099 /* EMNavigationController.h */,
+				C14CA3BD1B99A9AD00525099 /* EMNavigationController.m */,
 				C14CA3B91B99A65100525099 /* EMRootViewController.h */,
 				C14CA3BA1B99A65100525099 /* EMRootViewController.m */,
 			);
@@ -107,15 +137,10 @@
 		C14CA3B61B99A62E00525099 /* SQLManage */ = {
 			isa = PBXGroup;
 			children = (
+				C14CA3E81B99AD6600525099 /* SQLManage.h */,
+				C14CA3E91B99AD6600525099 /* SQLManage.m */,
 			);
 			path = SQLManage;
-			sourceTree = "<group>";
-		};
-		C14CA3B71B99A62E00525099 /* Ulit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Ulit;
 			sourceTree = "<group>";
 		};
 		C14CA3B81B99A62E00525099 /* View */ = {
@@ -125,9 +150,52 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C14CA3BF1B99AC1900525099 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3C01B99AC1900525099 /* Category */,
+				C14CA3C11B99AC1900525099 /* Util */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C14CA3C01B99AC1900525099 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C14CA3C11B99AC1900525099 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3D51B99ACEF00525099 /* fmdb */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C14CA3D51B99ACEF00525099 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3D61B99ACEF00525099 /* FMDatabase.h */,
+				C14CA3D71B99ACEF00525099 /* FMDatabase.m */,
+				C14CA3D81B99ACEF00525099 /* FMDatabaseAdditions.h */,
+				C14CA3D91B99ACEF00525099 /* FMDatabaseAdditions.m */,
+				C14CA3DA1B99ACEF00525099 /* FMDatabasePool.h */,
+				C14CA3DB1B99ACEF00525099 /* FMDatabasePool.m */,
+				C14CA3DC1B99ACEF00525099 /* FMDatabaseQueue.h */,
+				C14CA3DD1B99ACEF00525099 /* FMDatabaseQueue.m */,
+				C14CA3DE1B99ACEF00525099 /* FMDB.h */,
+				C14CA3DF1B99ACEF00525099 /* FMResultSet.h */,
+				C14CA3E01B99ACEF00525099 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		C15189581B999F2B00249300 = {
 			isa = PBXGroup;
 			children = (
+				C14CA3E61B99AD0000525099 /* libsqlite3.dylib */,
 				C15189631B999F2B00249300 /* EarMaster */,
 				C151897D1B999F2B00249300 /* EarMasterTests */,
 				C15189621B999F2B00249300 /* Products */,
@@ -162,6 +230,7 @@
 			children = (
 				C15189651B999F2B00249300 /* Info.plist */,
 				C15189661B999F2B00249300 /* main.m */,
+				C14CA3EC1B99BCE700525099 /* EarMaster-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -284,8 +353,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
+				C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */,
+				C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
+				C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */,
+				C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */,
+				C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */,
 				C15189671B999F2B00249300 /* main.m in Sources */,
+				C14CA3E21B99ACEF00525099 /* FMDatabaseAdditions.m in Sources */,
+				C14CA3EA1B99AD6600525099 /* SQLManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +485,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "EarMaster/EarMaster-Prefix.pch";
 				INFOPLIST_FILE = EarMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
 			};
 			name = Debug;
 		};
@@ -419,9 +498,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "EarMaster/EarMaster-Prefix.pch";
 				INFOPLIST_FILE = EarMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.0;
 			};
 			name = Release;
 		};

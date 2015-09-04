@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3BA1B99A65100525099 /* EMRootViewController.m */; };
 		C15189671B999F2B00249300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189661B999F2B00249300 /* main.m */; };
 		C151896A1B999F2B00249300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189691B999F2B00249300 /* AppDelegate.m */; };
-		C151896D1B999F2B00249300 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C151896C1B999F2B00249300 /* ViewController.m */; };
 		C15189701B999F2B00249300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C151896E1B999F2B00249300 /* Main.storyboard */; };
 		C15189721B999F2B00249300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15189711B999F2B00249300 /* Images.xcassets */; };
 		C15189751B999F2B00249300 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15189731B999F2B00249300 /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14CA3B91B99A65100525099 /* EMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRootViewController.h; sourceTree = "<group>"; };
+		C14CA3BA1B99A65100525099 /* EMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRootViewController.m; sourceTree = "<group>"; };
 		C15189611B999F2B00249300 /* EarMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15189651B999F2B00249300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C15189661B999F2B00249300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C15189681B999F2B00249300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C15189691B999F2B00249300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C151896B1B999F2B00249300 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C151896C1B999F2B00249300 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C151896F1B999F2B00249300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C15189711B999F2B00249300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C15189741B999F2B00249300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +60,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C14CA3B11B99A62E00525099 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3B21B99A62E00525099 /* Controller */,
+				C14CA3B31B99A62E00525099 /* Model */,
+				C14CA3B71B99A62E00525099 /* Ulit */,
+				C14CA3B81B99A62E00525099 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C14CA3B21B99A62E00525099 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3B91B99A65100525099 /* EMRootViewController.h */,
+				C14CA3BA1B99A65100525099 /* EMRootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C14CA3B31B99A62E00525099 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14CA3B41B99A62E00525099 /* NETManage */,
+				C14CA3B51B99A62E00525099 /* OBJManage */,
+				C14CA3B61B99A62E00525099 /* SQLManage */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14CA3B41B99A62E00525099 /* NETManage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NETManage;
+			sourceTree = "<group>";
+		};
+		C14CA3B51B99A62E00525099 /* OBJManage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OBJManage;
+			sourceTree = "<group>";
+		};
+		C14CA3B61B99A62E00525099 /* SQLManage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SQLManage;
+			sourceTree = "<group>";
+		};
+		C14CA3B71B99A62E00525099 /* Ulit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ulit;
+			sourceTree = "<group>";
+		};
+		C14CA3B81B99A62E00525099 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C15189581B999F2B00249300 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +148,7 @@
 			children = (
 				C15189681B999F2B00249300 /* AppDelegate.h */,
 				C15189691B999F2B00249300 /* AppDelegate.m */,
-				C151896B1B999F2B00249300 /* ViewController.h */,
-				C151896C1B999F2B00249300 /* ViewController.m */,
+				C14CA3B11B99A62E00525099 /* Class */,
 				C151896E1B999F2B00249300 /* Main.storyboard */,
 				C15189711B999F2B00249300 /* Images.xcassets */,
 				C15189731B999F2B00249300 /* LaunchScreen.xib */,
@@ -219,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C151896D1B999F2B00249300 /* ViewController.m in Sources */,
+				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
 				C15189671B999F2B00249300 /* main.m in Sources */,
 			);
@@ -414,6 +478,7 @@
 				C15189861B999F2B00249300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C15189871B999F2B00249300 /* Build configuration list for PBXNativeTarget "EarMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +487,7 @@
 				C15189891B999F2B00249300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

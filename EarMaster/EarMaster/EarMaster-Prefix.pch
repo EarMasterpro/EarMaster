@@ -10,5 +10,6 @@
 #define EarMaster_EarMaster_Prefix_pch
 
 #import "Config.h"
+#import "Dlog.h"
 
 #endif

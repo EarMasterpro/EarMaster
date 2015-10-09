@@ -7,7 +7,8 @@
 //
 
 #import "EMRootViewController.h"
-
+#import "PlistResources.h"
+#include "TTAlertView.h"
 @interface EMRootViewController ()
 
 @end
@@ -16,6 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //获取plist 资源eg
+    NSString *str = [[PlistResources sharePlist] resourceForKey:@"checkPointNum" theNumber:0];
+    TTAlertView *v = [[TTAlertView alloc]initWithTitle:@"dd" contentText:@"dd" leftButtonTitle:nil rightButtonTitle:@"d"];
+    v.rightBlock = ^{
+        DLog(@"右侧点击时间");
+    };
+    v.leftBlock =^{
+        DLog(@"左侧点击时间");
+    };
+    [v show];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="Experience" syncable="YES">
+        <attribute name="experience" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Level" syncable="YES">
+        <attribute name="isThrough" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="levelType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="levelNum" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LevelNum" syncable="YES"/>
+    </entity>
+    <entity name="LevelNum" syncable="YES">
+        <attribute name="isFristThrough" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isThrough" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Props" syncable="YES">
+        <attribute name="baton" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="experience" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Experience" syncable="YES"/>
+        <relationship name="level" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Level" syncable="YES"/>
+        <relationship name="props" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Props" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-324" positionY="144" width="128" height="103"/>
+        <element name="Props" positionX="-54" positionY="210" width="128" height="60"/>
+        <element name="LevelNum" positionX="-54" positionY="113" width="128" height="88"/>
+        <element name="Level" positionX="-279" positionY="18" width="128" height="88"/>
+        <element name="Experience" positionX="-225" positionY="302" width="128" height="58"/>
+    </elements>
+</model>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AFE8691BEB324C00C886E1 /* EarMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8671BEB324C00C886E1 /* EarMaster.xcdatamodeld */; };
+		42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */; };
 		42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E839101BC7F3640034DCCE /* CheckPoint.plist */; };
 		42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E839141BC7F80C0034DCCE /* PlistResources.m */; };
 		42E839201BC806C40034DCCE /* TTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8391F1BC806C40034DCCE /* TTAlertView.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42AFE8681BEB324C00C886E1 /* EarMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarMaster.xcdatamodel; sourceTree = "<group>"; };
+		42AFE86B1BEB58BF00C886E1 /* EMDataContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDataContextManager.h; sourceTree = "<group>"; };
+		42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDataContextManager.m; sourceTree = "<group>"; };
 		42E839101BC7F3640034DCCE /* CheckPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoint.plist; sourceTree = "<group>"; };
 		42E839131BC7F80C0034DCCE /* PlistResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistResources.h; sourceTree = "<group>"; };
 		42E839141BC7F80C0034DCCE /* PlistResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistResources.m; sourceTree = "<group>"; };
@@ -96,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42AFE86A1BEB588D00C886E1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE86B1BEB58BF00C886E1 /* EMDataContextManager.h */,
+				42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */,
+			);
+			name = CoreData;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		42E839121BC7F7DD0034DCCE /* Plist */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +155,8 @@
 		C14CA3B31B99A62E00525099 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42AFE8671BEB324C00C886E1 /* EarMaster.xcdatamodeld */,
+				42AFE86A1BEB588D00C886E1 /* CoreData */,
 				C14CA3B41B99A62E00525099 /* NETManage */,
 				C14CA3B51B99A62E00525099 /* OBJManage */,
 				C14CA3B61B99A62E00525099 /* SQLManage */,
@@ -387,10 +404,12 @@
 			files = (
 				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
 				C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */,
+				42AFE8691BEB324C00C886E1 /* EarMaster.xcdatamodeld in Sources */,
 				C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */,
 				42E839201BC806C40034DCCE /* TTAlertView.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
 				C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */,
+				42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */,
 				C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */,
 				42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */,
 				C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */,
@@ -611,6 +630,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42AFE8671BEB324C00C886E1 /* EarMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42AFE8681BEB324C00C886E1 /* EarMaster.xcdatamodel */,
+			);
+			currentVersion = 42AFE8681BEB324C00C886E1 /* EarMaster.xcdatamodel */;
+			name = EarMaster.xcdatamodeld;
+			path = ../../../EarMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C15189591B999F2B00249300 /* Project object */;
 }

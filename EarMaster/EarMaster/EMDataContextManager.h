@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
 @interface EMDataContextManager : NSObject
 +(EMDataContextManager *)manager;

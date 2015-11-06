@@ -11,4 +11,17 @@
 
 @interface EMDataContextManager : NSObject
 +(EMDataContextManager *)manager;
+
+- (NSManagedObjectContext *)managedObjectContext;
+- (void) storeManagedObjectContextForCurrentThread: (NSManagedObjectContext *) context;
+- (void) clearAllThreadsManagedObjectContexts;
+- (void) reset;
+- (void) saveContext;
+
+@end
+
+
+@interface NSManagedObjectContext (Confinement)
+- (NSManagedObjectContext *) newChildManagedObjectContext;
++ (NSManagedObjectContext *) perThreadContext;
 @end

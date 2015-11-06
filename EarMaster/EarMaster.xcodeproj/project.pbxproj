@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		42AFE8691BEB324C00C886E1 /* EarMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8671BEB324C00C886E1 /* EarMaster.xcdatamodeld */; };
 		42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */; };
+		42AFE8721BED081B00C886E1 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE86F1BED081B00C886E1 /* User+CoreDataProperties.m */; };
+		42AFE8731BED081B00C886E1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8711BED081B00C886E1 /* User.m */; };
+		42AFE8841BED083A00C886E1 /* Experience+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8751BED083A00C886E1 /* Experience+CoreDataProperties.m */; };
+		42AFE8851BED083A00C886E1 /* Experience.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8771BED083A00C886E1 /* Experience.m */; };
+		42AFE8861BED083A00C886E1 /* LevelNum+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8791BED083A00C886E1 /* LevelNum+CoreDataProperties.m */; };
+		42AFE8871BED083A00C886E1 /* LevelNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE87B1BED083A00C886E1 /* LevelNum.m */; };
+		42AFE8881BED083A00C886E1 /* Level+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE87D1BED083A00C886E1 /* Level+CoreDataProperties.m */; };
+		42AFE8891BED083A00C886E1 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE87F1BED083A00C886E1 /* Level.m */; };
+		42AFE88A1BED083A00C886E1 /* Props+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */; };
+		42AFE88B1BED083A00C886E1 /* Props.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8831BED083A00C886E1 /* Props.m */; };
 		42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E839101BC7F3640034DCCE /* CheckPoint.plist */; };
 		42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E839141BC7F80C0034DCCE /* PlistResources.m */; };
 		42E839201BC806C40034DCCE /* TTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8391F1BC806C40034DCCE /* TTAlertView.m */; };
@@ -43,6 +53,26 @@
 		42AFE8681BEB324C00C886E1 /* EarMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarMaster.xcdatamodel; sourceTree = "<group>"; };
 		42AFE86B1BEB58BF00C886E1 /* EMDataContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDataContextManager.h; sourceTree = "<group>"; };
 		42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDataContextManager.m; sourceTree = "<group>"; };
+		42AFE86E1BED081B00C886E1 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42AFE86F1BED081B00C886E1 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42AFE8701BED081B00C886E1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		42AFE8711BED081B00C886E1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		42AFE8741BED083A00C886E1 /* Experience+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Experience+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42AFE8751BED083A00C886E1 /* Experience+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Experience+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42AFE8761BED083A00C886E1 /* Experience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
+		42AFE8771BED083A00C886E1 /* Experience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Experience.m; sourceTree = "<group>"; };
+		42AFE8781BED083A00C886E1 /* LevelNum+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LevelNum+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42AFE8791BED083A00C886E1 /* LevelNum+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LevelNum+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42AFE87A1BED083A00C886E1 /* LevelNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelNum.h; sourceTree = "<group>"; };
+		42AFE87B1BED083A00C886E1 /* LevelNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelNum.m; sourceTree = "<group>"; };
+		42AFE87C1BED083A00C886E1 /* Level+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Level+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42AFE87D1BED083A00C886E1 /* Level+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Level+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42AFE87E1BED083A00C886E1 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		42AFE87F1BED083A00C886E1 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		42AFE8801BED083A00C886E1 /* Props+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Props+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Props+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42AFE8821BED083A00C886E1 /* Props.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Props.h; sourceTree = "<group>"; };
+		42AFE8831BED083A00C886E1 /* Props.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Props.m; sourceTree = "<group>"; };
 		42E839101BC7F3640034DCCE /* CheckPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoint.plist; sourceTree = "<group>"; };
 		42E839131BC7F80C0034DCCE /* PlistResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistResources.h; sourceTree = "<group>"; };
 		42E839141BC7F80C0034DCCE /* PlistResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistResources.m; sourceTree = "<group>"; };
@@ -106,6 +136,26 @@
 			children = (
 				42AFE86B1BEB58BF00C886E1 /* EMDataContextManager.h */,
 				42AFE86C1BEB58BF00C886E1 /* EMDataContextManager.m */,
+				42AFE86E1BED081B00C886E1 /* User+CoreDataProperties.h */,
+				42AFE86F1BED081B00C886E1 /* User+CoreDataProperties.m */,
+				42AFE8701BED081B00C886E1 /* User.h */,
+				42AFE8711BED081B00C886E1 /* User.m */,
+				42AFE8741BED083A00C886E1 /* Experience+CoreDataProperties.h */,
+				42AFE8751BED083A00C886E1 /* Experience+CoreDataProperties.m */,
+				42AFE8761BED083A00C886E1 /* Experience.h */,
+				42AFE8771BED083A00C886E1 /* Experience.m */,
+				42AFE8781BED083A00C886E1 /* LevelNum+CoreDataProperties.h */,
+				42AFE8791BED083A00C886E1 /* LevelNum+CoreDataProperties.m */,
+				42AFE87A1BED083A00C886E1 /* LevelNum.h */,
+				42AFE87B1BED083A00C886E1 /* LevelNum.m */,
+				42AFE87C1BED083A00C886E1 /* Level+CoreDataProperties.h */,
+				42AFE87D1BED083A00C886E1 /* Level+CoreDataProperties.m */,
+				42AFE87E1BED083A00C886E1 /* Level.h */,
+				42AFE87F1BED083A00C886E1 /* Level.m */,
+				42AFE8801BED083A00C886E1 /* Props+CoreDataProperties.h */,
+				42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */,
+				42AFE8821BED083A00C886E1 /* Props.h */,
+				42AFE8831BED083A00C886E1 /* Props.m */,
 			);
 			name = CoreData;
 			path = ../..;
@@ -402,13 +452,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AFE8731BED081B00C886E1 /* User.m in Sources */,
+				42AFE8851BED083A00C886E1 /* Experience.m in Sources */,
+				42AFE8721BED081B00C886E1 /* User+CoreDataProperties.m in Sources */,
+				42AFE8881BED083A00C886E1 /* Level+CoreDataProperties.m in Sources */,
 				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
 				C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */,
+				42AFE88B1BED083A00C886E1 /* Props.m in Sources */,
 				42AFE8691BEB324C00C886E1 /* EarMaster.xcdatamodeld in Sources */,
+				42AFE88A1BED083A00C886E1 /* Props+CoreDataProperties.m in Sources */,
 				C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */,
 				42E839201BC806C40034DCCE /* TTAlertView.m in Sources */,
+				42AFE8861BED083A00C886E1 /* LevelNum+CoreDataProperties.m in Sources */,
+				42AFE8871BED083A00C886E1 /* LevelNum.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
+				42AFE8891BED083A00C886E1 /* Level.m in Sources */,
 				C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */,
+				42AFE8841BED083A00C886E1 /* Experience+CoreDataProperties.m in Sources */,
 				42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */,
 				C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */,
 				42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */,

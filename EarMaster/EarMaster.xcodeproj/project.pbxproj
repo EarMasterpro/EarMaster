@@ -19,6 +19,14 @@
 		42AFE8891BED083A00C886E1 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE87F1BED083A00C886E1 /* Level.m */; };
 		42AFE88A1BED083A00C886E1 /* Props+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */; };
 		42AFE88B1BED083A00C886E1 /* Props.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8831BED083A00C886E1 /* Props.m */; };
+		42AFE8A01BEE478100C886E1 /* iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE88F1BEE478100C886E1 /* iAppInfos.m */; };
+		42AFE8A11BEE478100C886E1 /* JMODevicePowerInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */; };
+		42AFE8A21BEE478100C886E1 /* JMOMobileProvisionning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */; };
+		42AFE8A31BEE478100C886E1 /* NSDictionary+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */; };
+		42AFE8A41BEE478100C886E1 /* UIApplication+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */; };
+		42AFE8A51BEE478100C886E1 /* UIDevice+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */; };
+		42AFE8A61BEE478100C886E1 /* Sound.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 42AFE89D1BEE478100C886E1 /* Sound.fsh */; };
+		42AFE8A71BEE478100C886E1 /* XSharderCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE89F1BEE478100C886E1 /* XSharderCenter.m */; };
 		42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E839101BC7F3640034DCCE /* CheckPoint.plist */; };
 		42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E839141BC7F80C0034DCCE /* PlistResources.m */; };
 		42E839201BC806C40034DCCE /* TTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8391F1BC806C40034DCCE /* TTAlertView.m */; };
@@ -73,6 +81,22 @@
 		42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Props+CoreDataProperties.m"; sourceTree = "<group>"; };
 		42AFE8821BED083A00C886E1 /* Props.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Props.h; sourceTree = "<group>"; };
 		42AFE8831BED083A00C886E1 /* Props.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Props.m; sourceTree = "<group>"; };
+		42AFE88E1BEE478100C886E1 /* iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAppInfos.h; sourceTree = "<group>"; };
+		42AFE88F1BEE478100C886E1 /* iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAppInfos.m; sourceTree = "<group>"; };
+		42AFE8901BEE478100C886E1 /* JMODevicePowerInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMODevicePowerInfos.h; sourceTree = "<group>"; };
+		42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMODevicePowerInfos.m; sourceTree = "<group>"; };
+		42AFE8921BEE478100C886E1 /* JMOLogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOLogMacro.h; sourceTree = "<group>"; };
+		42AFE8931BEE478100C886E1 /* JMOMobileProvisionning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOMobileProvisionning.h; sourceTree = "<group>"; };
+		42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMOMobileProvisionning.m; sourceTree = "<group>"; };
+		42AFE8951BEE478100C886E1 /* NSDictionary+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iAppInfos.h"; sourceTree = "<group>"; };
+		42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+iAppInfos.m"; sourceTree = "<group>"; };
+		42AFE8971BEE478100C886E1 /* UIApplication+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+iAppInfos.h"; sourceTree = "<group>"; };
+		42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+iAppInfos.m"; sourceTree = "<group>"; };
+		42AFE8991BEE478100C886E1 /* UIDevice+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+iAppInfos.h"; sourceTree = "<group>"; };
+		42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+iAppInfos.m"; sourceTree = "<group>"; };
+		42AFE89D1BEE478100C886E1 /* Sound.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sound.fsh; sourceTree = "<group>"; };
+		42AFE89E1BEE478100C886E1 /* XSharderCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSharderCenter.h; sourceTree = "<group>"; };
+		42AFE89F1BEE478100C886E1 /* XSharderCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSharderCenter.m; sourceTree = "<group>"; };
 		42E839101BC7F3640034DCCE /* CheckPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoint.plist; sourceTree = "<group>"; };
 		42E839131BC7F80C0034DCCE /* PlistResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistResources.h; sourceTree = "<group>"; };
 		42E839141BC7F80C0034DCCE /* PlistResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistResources.m; sourceTree = "<group>"; };
@@ -159,6 +183,53 @@
 			);
 			name = CoreData;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		42AFE88C1BEE478100C886E1 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE88D1BEE478100C886E1 /* iAppInfos */,
+				42AFE89B1BEE478100C886E1 /* XShader */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		42AFE88D1BEE478100C886E1 /* iAppInfos */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE88E1BEE478100C886E1 /* iAppInfos.h */,
+				42AFE88F1BEE478100C886E1 /* iAppInfos.m */,
+				42AFE8901BEE478100C886E1 /* JMODevicePowerInfos.h */,
+				42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */,
+				42AFE8921BEE478100C886E1 /* JMOLogMacro.h */,
+				42AFE8931BEE478100C886E1 /* JMOMobileProvisionning.h */,
+				42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */,
+				42AFE8951BEE478100C886E1 /* NSDictionary+iAppInfos.h */,
+				42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */,
+				42AFE8971BEE478100C886E1 /* UIApplication+iAppInfos.h */,
+				42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */,
+				42AFE8991BEE478100C886E1 /* UIDevice+iAppInfos.h */,
+				42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */,
+			);
+			path = iAppInfos;
+			sourceTree = "<group>";
+		};
+		42AFE89B1BEE478100C886E1 /* XShader */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE89C1BEE478100C886E1 /* XShaderFile */,
+				42AFE89E1BEE478100C886E1 /* XSharderCenter.h */,
+				42AFE89F1BEE478100C886E1 /* XSharderCenter.m */,
+			);
+			path = XShader;
+			sourceTree = "<group>";
+		};
+		42AFE89C1BEE478100C886E1 /* XShaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE89D1BEE478100C886E1 /* Sound.fsh */,
+			);
+			path = XShaderFile;
 			sourceTree = "<group>";
 		};
 		42E839121BC7F7DD0034DCCE /* Plist */ = {
@@ -291,6 +362,7 @@
 		C15189581B999F2B00249300 = {
 			isa = PBXGroup;
 			children = (
+				42AFE88C1BEE478100C886E1 /* ObjC */,
 				C14CA3E61B99AD0000525099 /* libsqlite3.dylib */,
 				C15189631B999F2B00249300 /* EarMaster */,
 				C151897D1B999F2B00249300 /* EarMasterTests */,
@@ -435,6 +507,7 @@
 				C15189751B999F2B00249300 /* LaunchScreen.xib in Resources */,
 				42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */,
 				C15189721B999F2B00249300 /* Images.xcassets in Resources */,
+				42AFE8A61BEE478100C886E1 /* Sound.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +528,7 @@
 				42AFE8731BED081B00C886E1 /* User.m in Sources */,
 				42AFE8851BED083A00C886E1 /* Experience.m in Sources */,
 				42AFE8721BED081B00C886E1 /* User+CoreDataProperties.m in Sources */,
+				42AFE8A51BEE478100C886E1 /* UIDevice+iAppInfos.m in Sources */,
 				42AFE8881BED083A00C886E1 /* Level+CoreDataProperties.m in Sources */,
 				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
 				C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */,
@@ -464,16 +538,22 @@
 				C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */,
 				42E839201BC806C40034DCCE /* TTAlertView.m in Sources */,
 				42AFE8861BED083A00C886E1 /* LevelNum+CoreDataProperties.m in Sources */,
+				42AFE8A11BEE478100C886E1 /* JMODevicePowerInfos.m in Sources */,
+				42AFE8A21BEE478100C886E1 /* JMOMobileProvisionning.m in Sources */,
 				42AFE8871BED083A00C886E1 /* LevelNum.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
+				42AFE8A41BEE478100C886E1 /* UIApplication+iAppInfos.m in Sources */,
 				42AFE8891BED083A00C886E1 /* Level.m in Sources */,
 				C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */,
 				42AFE8841BED083A00C886E1 /* Experience+CoreDataProperties.m in Sources */,
 				42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */,
 				C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */,
 				42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */,
+				42AFE8A31BEE478100C886E1 /* NSDictionary+iAppInfos.m in Sources */,
 				C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */,
+				42AFE8A01BEE478100C886E1 /* iAppInfos.m in Sources */,
 				C15189671B999F2B00249300 /* main.m in Sources */,
+				42AFE8A71BEE478100C886E1 /* XSharderCenter.m in Sources */,
 				C14CA3E21B99ACEF00525099 /* FMDatabaseAdditions.m in Sources */,
 				C14CA3EA1B99AD6600525099 /* SQLManage.m in Sources */,
 			);

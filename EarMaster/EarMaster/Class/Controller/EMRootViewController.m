@@ -11,7 +11,10 @@
 #import "EMRootViewController.h"
 #import "PlistResources.h"
 #include "TTAlertView.h"
-@interface EMRootViewController ()
+#import "XMidiPlayer.h"
+#import "XMidiSequence.h"
+#import "XAudioPlayer.h"
+@interface EMRootViewController ()<XMidiPlayerDelegate,XAudioPlayerDelegate>
 
 @end
 
@@ -24,18 +27,30 @@
     TTAlertView *v = [[TTAlertView alloc]initWithTitle:@"dd" contentText:@"dd" leftButtonTitle:nil rightButtonTitle:@"d"];
     v.rightBlock = ^{
         DLog(@"右侧点击时间");
+
+        [XMidiPlayer xInit];
+        NSString *midURL = [[NSBundle mainBundle]pathForResource:@"ww" ofType:@"mid"];
+        XMidiPlayer *play = [[XMidiPlayer alloc]init];
+        play.delegate = self;
+        [play initMidi:[NSURL URLWithString:midURL]];
+     
+        [play play];
+     
+        
+        
     };
     v.leftBlock =^{
         DLog(@"左侧点击时间");
     };
     [v show];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
++ (void)playingSoundNote:(XMidiNoteMessageEvent *)event{
+    DLog(@"????");
+}
 /*
 #pragma mark - Navigation
 

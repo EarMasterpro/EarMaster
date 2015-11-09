@@ -19,14 +19,29 @@
 		42AFE8891BED083A00C886E1 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE87F1BED083A00C886E1 /* Level.m */; };
 		42AFE88A1BED083A00C886E1 /* Props+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */; };
 		42AFE88B1BED083A00C886E1 /* Props.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8831BED083A00C886E1 /* Props.m */; };
-		42AFE8A01BEE478100C886E1 /* iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE88F1BEE478100C886E1 /* iAppInfos.m */; };
-		42AFE8A11BEE478100C886E1 /* JMODevicePowerInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */; };
-		42AFE8A21BEE478100C886E1 /* JMOMobileProvisionning.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */; };
-		42AFE8A31BEE478100C886E1 /* NSDictionary+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */; };
-		42AFE8A41BEE478100C886E1 /* UIApplication+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */; };
-		42AFE8A51BEE478100C886E1 /* UIDevice+iAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */; };
-		42AFE8A61BEE478100C886E1 /* Sound.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 42AFE89D1BEE478100C886E1 /* Sound.fsh */; };
-		42AFE8A71BEE478100C886E1 /* XSharderCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE89F1BEE478100C886E1 /* XSharderCenter.m */; };
+		42AFE8A91BF064D800C886E1 /* ww.mid in Resources */ = {isa = PBXBuildFile; fileRef = 42AFE8A81BF064D800C886E1 /* ww.mid */; };
+		42AFEDB91BF066B100C886E1 /* XAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8AD1BF066AD00C886E1 /* XAudioPlayer.m */; };
+		42AFEDBA1BF066B100C886E1 /* XAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8AF1BF066AD00C886E1 /* XAudioUnit.m */; };
+		42AFEDBB1BF066B100C886E1 /* XInstrumentAupreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8B11BF066AD00C886E1 /* XInstrumentAupreset.m */; };
+		42AFEDBC1BF066B100C886E1 /* XFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8B41BF066AD00C886E1 /* XFunction.m */; };
+		42AFEDBD1BF066B100C886E1 /* XMidiChannelMessageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8B81BF066AD00C886E1 /* XMidiChannelMessageEvent.m */; };
+		42AFEDBE1BF066B100C886E1 /* XMidiEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8BA1BF066AD00C886E1 /* XMidiEvent.m */; };
+		42AFEDBF1BF066B100C886E1 /* XMidiNoteMessageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8BC1BF066AD00C886E1 /* XMidiNoteMessageEvent.m */; };
+		42AFEDC01BF066B100C886E1 /* XMidiTempoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8BE1BF066AD00C886E1 /* XMidiTempoEvent.m */; };
+		42AFEDC11BF066B100C886E1 /* XMidiEventIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8C01BF066AD00C886E1 /* XMidiEventIterator.m */; };
+		42AFEDC21BF066B100C886E1 /* XMidiSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8C21BF066AD00C886E1 /* XMidiSequence.m */; };
+		42AFEDC31BF066B100C886E1 /* XMidiTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8C41BF066AD00C886E1 /* XMidiTrack.m */; };
+		42AFEDC41BF066B100C886E1 /* XMidiPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AFE8C71BF066AD00C886E1 /* XMidiPlayer.m */; };
+		42AFF53F1BF07F2F00C886E1 /* Alto Sax.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF5351BF07F2F00C886E1 /* Alto Sax.aupreset */; };
+		42AFF5401BF07F2F00C886E1 /* Celesta.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF5361BF07F2F00C886E1 /* Celesta.aupreset */; };
+		42AFF5411BF07F2F00C886E1 /* Classical Acoustic Guitar.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF5371BF07F2F00C886E1 /* Classical Acoustic Guitar.aupreset */; };
+		42AFF5421BF07F2F00C886E1 /* Flutes.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF5381BF07F2F00C886E1 /* Flutes.aupreset */; };
+		42AFF5431BF07F2F00C886E1 /* French Horns.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF5391BF07F2F00C886E1 /* French Horns.aupreset */; };
+		42AFF5441BF07F2F00C886E1 /* Full Organ.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF53A1BF07F2F00C886E1 /* Full Organ.aupreset */; };
+		42AFF5451BF07F2F00C886E1 /* Muted Electric Bass.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF53B1BF07F2F00C886E1 /* Muted Electric Bass.aupreset */; };
+		42AFF5461BF07F2F00C886E1 /* Orchestral Kit.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF53C1BF07F2F00C886E1 /* Orchestral Kit.aupreset */; };
+		42AFF5471BF07F2F00C886E1 /* String Ensemble.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF53D1BF07F2F00C886E1 /* String Ensemble.aupreset */; };
+		42AFF5481BF07F2F00C886E1 /* Yamaha Grand Piano.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = 42AFF53E1BF07F2F00C886E1 /* Yamaha Grand Piano.aupreset */; };
 		42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42E839101BC7F3640034DCCE /* CheckPoint.plist */; };
 		42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E839141BC7F80C0034DCCE /* PlistResources.m */; };
 		42E839201BC806C40034DCCE /* TTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8391F1BC806C40034DCCE /* TTAlertView.m */; };
@@ -37,7 +52,6 @@
 		C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3DB1B99ACEF00525099 /* FMDatabasePool.m */; };
 		C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3DD1B99ACEF00525099 /* FMDatabaseQueue.m */; };
 		C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3E01B99ACEF00525099 /* FMResultSet.m */; };
-		C14CA3E71B99AD0000525099 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C14CA3E61B99AD0000525099 /* libsqlite3.dylib */; };
 		C14CA3EA1B99AD6600525099 /* SQLManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C14CA3E91B99AD6600525099 /* SQLManage.m */; };
 		C15189671B999F2B00249300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189661B999F2B00249300 /* main.m */; };
 		C151896A1B999F2B00249300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15189691B999F2B00249300 /* AppDelegate.m */; };
@@ -81,22 +95,41 @@
 		42AFE8811BED083A00C886E1 /* Props+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Props+CoreDataProperties.m"; sourceTree = "<group>"; };
 		42AFE8821BED083A00C886E1 /* Props.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Props.h; sourceTree = "<group>"; };
 		42AFE8831BED083A00C886E1 /* Props.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Props.m; sourceTree = "<group>"; };
-		42AFE88E1BEE478100C886E1 /* iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAppInfos.h; sourceTree = "<group>"; };
-		42AFE88F1BEE478100C886E1 /* iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAppInfos.m; sourceTree = "<group>"; };
-		42AFE8901BEE478100C886E1 /* JMODevicePowerInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMODevicePowerInfos.h; sourceTree = "<group>"; };
-		42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMODevicePowerInfos.m; sourceTree = "<group>"; };
-		42AFE8921BEE478100C886E1 /* JMOLogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOLogMacro.h; sourceTree = "<group>"; };
-		42AFE8931BEE478100C886E1 /* JMOMobileProvisionning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMOMobileProvisionning.h; sourceTree = "<group>"; };
-		42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMOMobileProvisionning.m; sourceTree = "<group>"; };
-		42AFE8951BEE478100C886E1 /* NSDictionary+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+iAppInfos.h"; sourceTree = "<group>"; };
-		42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+iAppInfos.m"; sourceTree = "<group>"; };
-		42AFE8971BEE478100C886E1 /* UIApplication+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+iAppInfos.h"; sourceTree = "<group>"; };
-		42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+iAppInfos.m"; sourceTree = "<group>"; };
-		42AFE8991BEE478100C886E1 /* UIDevice+iAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+iAppInfos.h"; sourceTree = "<group>"; };
-		42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+iAppInfos.m"; sourceTree = "<group>"; };
-		42AFE89D1BEE478100C886E1 /* Sound.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sound.fsh; sourceTree = "<group>"; };
-		42AFE89E1BEE478100C886E1 /* XSharderCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSharderCenter.h; sourceTree = "<group>"; };
-		42AFE89F1BEE478100C886E1 /* XSharderCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSharderCenter.m; sourceTree = "<group>"; };
+		42AFE8A81BF064D800C886E1 /* ww.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ww.mid; sourceTree = "<group>"; };
+		42AFE8AC1BF066AD00C886E1 /* XAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAudioPlayer.h; sourceTree = "<group>"; };
+		42AFE8AD1BF066AD00C886E1 /* XAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAudioPlayer.m; sourceTree = "<group>"; };
+		42AFE8AE1BF066AD00C886E1 /* XAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAudioUnit.h; sourceTree = "<group>"; };
+		42AFE8AF1BF066AD00C886E1 /* XAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAudioUnit.m; sourceTree = "<group>"; };
+		42AFE8B01BF066AD00C886E1 /* XInstrumentAupreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XInstrumentAupreset.h; sourceTree = "<group>"; };
+		42AFE8B11BF066AD00C886E1 /* XInstrumentAupreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XInstrumentAupreset.m; sourceTree = "<group>"; };
+		42AFE8B31BF066AD00C886E1 /* XFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFunction.h; sourceTree = "<group>"; };
+		42AFE8B41BF066AD00C886E1 /* XFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFunction.m; sourceTree = "<group>"; };
+		42AFE8B71BF066AD00C886E1 /* XMidiChannelMessageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiChannelMessageEvent.h; sourceTree = "<group>"; };
+		42AFE8B81BF066AD00C886E1 /* XMidiChannelMessageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiChannelMessageEvent.m; sourceTree = "<group>"; };
+		42AFE8B91BF066AD00C886E1 /* XMidiEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiEvent.h; sourceTree = "<group>"; };
+		42AFE8BA1BF066AD00C886E1 /* XMidiEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiEvent.m; sourceTree = "<group>"; };
+		42AFE8BB1BF066AD00C886E1 /* XMidiNoteMessageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiNoteMessageEvent.h; sourceTree = "<group>"; };
+		42AFE8BC1BF066AD00C886E1 /* XMidiNoteMessageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiNoteMessageEvent.m; sourceTree = "<group>"; };
+		42AFE8BD1BF066AD00C886E1 /* XMidiTempoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiTempoEvent.h; sourceTree = "<group>"; };
+		42AFE8BE1BF066AD00C886E1 /* XMidiTempoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiTempoEvent.m; sourceTree = "<group>"; };
+		42AFE8BF1BF066AD00C886E1 /* XMidiEventIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiEventIterator.h; sourceTree = "<group>"; };
+		42AFE8C01BF066AD00C886E1 /* XMidiEventIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiEventIterator.m; sourceTree = "<group>"; };
+		42AFE8C11BF066AD00C886E1 /* XMidiSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiSequence.h; sourceTree = "<group>"; };
+		42AFE8C21BF066AD00C886E1 /* XMidiSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiSequence.m; sourceTree = "<group>"; };
+		42AFE8C31BF066AD00C886E1 /* XMidiTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiTrack.h; sourceTree = "<group>"; };
+		42AFE8C41BF066AD00C886E1 /* XMidiTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiTrack.m; sourceTree = "<group>"; };
+		42AFE8C61BF066AD00C886E1 /* XMidiPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMidiPlayer.h; sourceTree = "<group>"; };
+		42AFE8C71BF066AD00C886E1 /* XMidiPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMidiPlayer.m; sourceTree = "<group>"; };
+		42AFF5351BF07F2F00C886E1 /* Alto Sax.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Alto Sax.aupreset"; sourceTree = "<group>"; };
+		42AFF5361BF07F2F00C886E1 /* Celesta.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Celesta.aupreset; sourceTree = "<group>"; };
+		42AFF5371BF07F2F00C886E1 /* Classical Acoustic Guitar.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Classical Acoustic Guitar.aupreset"; sourceTree = "<group>"; };
+		42AFF5381BF07F2F00C886E1 /* Flutes.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Flutes.aupreset; sourceTree = "<group>"; };
+		42AFF5391BF07F2F00C886E1 /* French Horns.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "French Horns.aupreset"; sourceTree = "<group>"; };
+		42AFF53A1BF07F2F00C886E1 /* Full Organ.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Full Organ.aupreset"; sourceTree = "<group>"; };
+		42AFF53B1BF07F2F00C886E1 /* Muted Electric Bass.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Muted Electric Bass.aupreset"; sourceTree = "<group>"; };
+		42AFF53C1BF07F2F00C886E1 /* Orchestral Kit.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Orchestral Kit.aupreset"; sourceTree = "<group>"; };
+		42AFF53D1BF07F2F00C886E1 /* String Ensemble.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "String Ensemble.aupreset"; sourceTree = "<group>"; };
+		42AFF53E1BF07F2F00C886E1 /* Yamaha Grand Piano.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Yamaha Grand Piano.aupreset"; sourceTree = "<group>"; };
 		42E839101BC7F3640034DCCE /* CheckPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoint.plist; sourceTree = "<group>"; };
 		42E839131BC7F80C0034DCCE /* PlistResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistResources.h; sourceTree = "<group>"; };
 		42E839141BC7F80C0034DCCE /* PlistResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistResources.m; sourceTree = "<group>"; };
@@ -118,7 +151,6 @@
 		C14CA3DE1B99ACEF00525099 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		C14CA3DF1B99ACEF00525099 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		C14CA3E01B99ACEF00525099 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		C14CA3E61B99AD0000525099 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
 		C14CA3E81B99AD6600525099 /* SQLManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManage.h; sourceTree = "<group>"; };
 		C14CA3E91B99AD6600525099 /* SQLManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManage.m; sourceTree = "<group>"; };
 		C14CA3EC1B99BCE700525099 /* EarMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarMaster-Prefix.pch"; sourceTree = "<group>"; };
@@ -141,7 +173,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14CA3E71B99AD0000525099 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,51 +216,109 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		42AFE88C1BEE478100C886E1 /* ObjC */ = {
+		42AFE8AA1BF066AD00C886E1 /* XMidiLib */ = {
 			isa = PBXGroup;
 			children = (
-				42AFE88D1BEE478100C886E1 /* iAppInfos */,
-				42AFE89B1BEE478100C886E1 /* XShader */,
+				42AFE8AB1BF066AD00C886E1 /* AudioUnit */,
+				42AFE8B21BF066AD00C886E1 /* Data */,
+				42AFE8B51BF066AD00C886E1 /* MIDI */,
+				42AFE8C51BF066AD00C886E1 /* Player */,
+				42AFE8C81BF066AD00C886E1 /* Resource */,
 			);
-			path = ObjC;
+			path = XMidiLib;
 			sourceTree = "<group>";
 		};
-		42AFE88D1BEE478100C886E1 /* iAppInfos */ = {
+		42AFE8AB1BF066AD00C886E1 /* AudioUnit */ = {
 			isa = PBXGroup;
 			children = (
-				42AFE88E1BEE478100C886E1 /* iAppInfos.h */,
-				42AFE88F1BEE478100C886E1 /* iAppInfos.m */,
-				42AFE8901BEE478100C886E1 /* JMODevicePowerInfos.h */,
-				42AFE8911BEE478100C886E1 /* JMODevicePowerInfos.m */,
-				42AFE8921BEE478100C886E1 /* JMOLogMacro.h */,
-				42AFE8931BEE478100C886E1 /* JMOMobileProvisionning.h */,
-				42AFE8941BEE478100C886E1 /* JMOMobileProvisionning.m */,
-				42AFE8951BEE478100C886E1 /* NSDictionary+iAppInfos.h */,
-				42AFE8961BEE478100C886E1 /* NSDictionary+iAppInfos.m */,
-				42AFE8971BEE478100C886E1 /* UIApplication+iAppInfos.h */,
-				42AFE8981BEE478100C886E1 /* UIApplication+iAppInfos.m */,
-				42AFE8991BEE478100C886E1 /* UIDevice+iAppInfos.h */,
-				42AFE89A1BEE478100C886E1 /* UIDevice+iAppInfos.m */,
+				42AFE8AC1BF066AD00C886E1 /* XAudioPlayer.h */,
+				42AFE8AD1BF066AD00C886E1 /* XAudioPlayer.m */,
+				42AFE8AE1BF066AD00C886E1 /* XAudioUnit.h */,
+				42AFE8AF1BF066AD00C886E1 /* XAudioUnit.m */,
+				42AFE8B01BF066AD00C886E1 /* XInstrumentAupreset.h */,
+				42AFE8B11BF066AD00C886E1 /* XInstrumentAupreset.m */,
 			);
-			path = iAppInfos;
+			path = AudioUnit;
 			sourceTree = "<group>";
 		};
-		42AFE89B1BEE478100C886E1 /* XShader */ = {
+		42AFE8B21BF066AD00C886E1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				42AFE89C1BEE478100C886E1 /* XShaderFile */,
-				42AFE89E1BEE478100C886E1 /* XSharderCenter.h */,
-				42AFE89F1BEE478100C886E1 /* XSharderCenter.m */,
+				42AFE8B31BF066AD00C886E1 /* XFunction.h */,
+				42AFE8B41BF066AD00C886E1 /* XFunction.m */,
 			);
-			path = XShader;
+			path = Data;
 			sourceTree = "<group>";
 		};
-		42AFE89C1BEE478100C886E1 /* XShaderFile */ = {
+		42AFE8B51BF066AD00C886E1 /* MIDI */ = {
 			isa = PBXGroup;
 			children = (
-				42AFE89D1BEE478100C886E1 /* Sound.fsh */,
+				42AFE8B61BF066AD00C886E1 /* Events */,
+				42AFE8BF1BF066AD00C886E1 /* XMidiEventIterator.h */,
+				42AFE8C01BF066AD00C886E1 /* XMidiEventIterator.m */,
+				42AFE8C11BF066AD00C886E1 /* XMidiSequence.h */,
+				42AFE8C21BF066AD00C886E1 /* XMidiSequence.m */,
+				42AFE8C31BF066AD00C886E1 /* XMidiTrack.h */,
+				42AFE8C41BF066AD00C886E1 /* XMidiTrack.m */,
 			);
-			path = XShaderFile;
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		42AFE8B61BF066AD00C886E1 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE8B71BF066AD00C886E1 /* XMidiChannelMessageEvent.h */,
+				42AFE8B81BF066AD00C886E1 /* XMidiChannelMessageEvent.m */,
+				42AFE8B91BF066AD00C886E1 /* XMidiEvent.h */,
+				42AFE8BA1BF066AD00C886E1 /* XMidiEvent.m */,
+				42AFE8BB1BF066AD00C886E1 /* XMidiNoteMessageEvent.h */,
+				42AFE8BC1BF066AD00C886E1 /* XMidiNoteMessageEvent.m */,
+				42AFE8BD1BF066AD00C886E1 /* XMidiTempoEvent.h */,
+				42AFE8BE1BF066AD00C886E1 /* XMidiTempoEvent.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		42AFE8C51BF066AD00C886E1 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				42AFE8C61BF066AD00C886E1 /* XMidiPlayer.h */,
+				42AFE8C71BF066AD00C886E1 /* XMidiPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		42AFE8C81BF066AD00C886E1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				42AFF5341BF07F2F00C886E1 /* Aupreset */,
+				42AFE8D41BF066AD00C886E1 /* Sounds */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		42AFE8D41BF066AD00C886E1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		42AFF5341BF07F2F00C886E1 /* Aupreset */ = {
+			isa = PBXGroup;
+			children = (
+				42AFF5351BF07F2F00C886E1 /* Alto Sax.aupreset */,
+				42AFF5361BF07F2F00C886E1 /* Celesta.aupreset */,
+				42AFF5371BF07F2F00C886E1 /* Classical Acoustic Guitar.aupreset */,
+				42AFF5381BF07F2F00C886E1 /* Flutes.aupreset */,
+				42AFF5391BF07F2F00C886E1 /* French Horns.aupreset */,
+				42AFF53A1BF07F2F00C886E1 /* Full Organ.aupreset */,
+				42AFF53B1BF07F2F00C886E1 /* Muted Electric Bass.aupreset */,
+				42AFF53C1BF07F2F00C886E1 /* Orchestral Kit.aupreset */,
+				42AFF53D1BF07F2F00C886E1 /* String Ensemble.aupreset */,
+				42AFF53E1BF07F2F00C886E1 /* Yamaha Grand Piano.aupreset */,
+			);
+			path = Aupreset;
 			sourceTree = "<group>";
 		};
 		42E839121BC7F7DD0034DCCE /* Plist */ = {
@@ -362,8 +451,8 @@
 		C15189581B999F2B00249300 = {
 			isa = PBXGroup;
 			children = (
-				42AFE88C1BEE478100C886E1 /* ObjC */,
-				C14CA3E61B99AD0000525099 /* libsqlite3.dylib */,
+				42AFE8A81BF064D800C886E1 /* ww.mid */,
+				42AFE8AA1BF066AD00C886E1 /* XMidiLib */,
 				C15189631B999F2B00249300 /* EarMaster */,
 				C151897D1B999F2B00249300 /* EarMasterTests */,
 				C15189621B999F2B00249300 /* Products */,
@@ -503,11 +592,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AFF5431BF07F2F00C886E1 /* French Horns.aupreset in Resources */,
 				C15189701B999F2B00249300 /* Main.storyboard in Resources */,
+				42AFF5441BF07F2F00C886E1 /* Full Organ.aupreset in Resources */,
 				C15189751B999F2B00249300 /* LaunchScreen.xib in Resources */,
+				42AFF5481BF07F2F00C886E1 /* Yamaha Grand Piano.aupreset in Resources */,
+				42AFF5401BF07F2F00C886E1 /* Celesta.aupreset in Resources */,
+				42AFF5411BF07F2F00C886E1 /* Classical Acoustic Guitar.aupreset in Resources */,
+				42AFF5451BF07F2F00C886E1 /* Muted Electric Bass.aupreset in Resources */,
+				42AFF5471BF07F2F00C886E1 /* String Ensemble.aupreset in Resources */,
 				42E839111BC7F3640034DCCE /* CheckPoint.plist in Resources */,
+				42AFF5461BF07F2F00C886E1 /* Orchestral Kit.aupreset in Resources */,
+				42AFF5421BF07F2F00C886E1 /* Flutes.aupreset in Resources */,
 				C15189721B999F2B00249300 /* Images.xcassets in Resources */,
-				42AFE8A61BEE478100C886E1 /* Sound.fsh in Resources */,
+				42AFF53F1BF07F2F00C886E1 /* Alto Sax.aupreset in Resources */,
+				42AFE8A91BF064D800C886E1 /* ww.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,37 +624,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AFEDC41BF066B100C886E1 /* XMidiPlayer.m in Sources */,
+				42AFEDB91BF066B100C886E1 /* XAudioPlayer.m in Sources */,
 				42AFE8731BED081B00C886E1 /* User.m in Sources */,
 				42AFE8851BED083A00C886E1 /* Experience.m in Sources */,
 				42AFE8721BED081B00C886E1 /* User+CoreDataProperties.m in Sources */,
-				42AFE8A51BEE478100C886E1 /* UIDevice+iAppInfos.m in Sources */,
 				42AFE8881BED083A00C886E1 /* Level+CoreDataProperties.m in Sources */,
 				C14CA3BB1B99A65100525099 /* EMRootViewController.m in Sources */,
 				C14CA3E41B99ACEF00525099 /* FMDatabaseQueue.m in Sources */,
+				42AFEDBC1BF066B100C886E1 /* XFunction.m in Sources */,
 				42AFE88B1BED083A00C886E1 /* Props.m in Sources */,
 				42AFE8691BEB324C00C886E1 /* EarMaster.xcdatamodeld in Sources */,
+				42AFEDC31BF066B100C886E1 /* XMidiTrack.m in Sources */,
 				42AFE88A1BED083A00C886E1 /* Props+CoreDataProperties.m in Sources */,
+				42AFEDBA1BF066B100C886E1 /* XAudioUnit.m in Sources */,
 				C14CA3BE1B99A9AD00525099 /* EMNavigationController.m in Sources */,
 				42E839201BC806C40034DCCE /* TTAlertView.m in Sources */,
 				42AFE8861BED083A00C886E1 /* LevelNum+CoreDataProperties.m in Sources */,
-				42AFE8A11BEE478100C886E1 /* JMODevicePowerInfos.m in Sources */,
-				42AFE8A21BEE478100C886E1 /* JMOMobileProvisionning.m in Sources */,
+				42AFEDBD1BF066B100C886E1 /* XMidiChannelMessageEvent.m in Sources */,
 				42AFE8871BED083A00C886E1 /* LevelNum.m in Sources */,
 				C151896A1B999F2B00249300 /* AppDelegate.m in Sources */,
-				42AFE8A41BEE478100C886E1 /* UIApplication+iAppInfos.m in Sources */,
 				42AFE8891BED083A00C886E1 /* Level.m in Sources */,
+				42AFEDC01BF066B100C886E1 /* XMidiTempoEvent.m in Sources */,
 				C14CA3E11B99ACEF00525099 /* FMDatabase.m in Sources */,
+				42AFEDBB1BF066B100C886E1 /* XInstrumentAupreset.m in Sources */,
 				42AFE8841BED083A00C886E1 /* Experience+CoreDataProperties.m in Sources */,
 				42AFE86D1BEB58BF00C886E1 /* EMDataContextManager.m in Sources */,
 				C14CA3E31B99ACEF00525099 /* FMDatabasePool.m in Sources */,
+				42AFEDC21BF066B100C886E1 /* XMidiSequence.m in Sources */,
 				42E839151BC7F80C0034DCCE /* PlistResources.m in Sources */,
-				42AFE8A31BEE478100C886E1 /* NSDictionary+iAppInfos.m in Sources */,
+				42AFEDBF1BF066B100C886E1 /* XMidiNoteMessageEvent.m in Sources */,
 				C14CA3E51B99ACEF00525099 /* FMResultSet.m in Sources */,
-				42AFE8A01BEE478100C886E1 /* iAppInfos.m in Sources */,
 				C15189671B999F2B00249300 /* main.m in Sources */,
-				42AFE8A71BEE478100C886E1 /* XSharderCenter.m in Sources */,
 				C14CA3E21B99ACEF00525099 /* FMDatabaseAdditions.m in Sources */,
 				C14CA3EA1B99AD6600525099 /* SQLManage.m in Sources */,
+				42AFEDC11BF066B100C886E1 /* XMidiEventIterator.m in Sources */,
+				42AFEDBE1BF066B100C886E1 /* XMidiEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
